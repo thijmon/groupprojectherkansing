@@ -19,10 +19,10 @@ public class Student {
     private ObservableList<Student> studenten = FXCollections.observableArrayList();
 
     public Student(){
-        Student student1 = new Student(1, "Thijmen Perdon", "thijmon", "geheim", false, "v1c");
-        Student student2 = new Student(2, "Niels Perdon", "nielson", "geheim", false, "v1c");
-        Student student3 = new Student(3, "Pieter Pan", "pieterpan", "geheim", false, "v1d");
-        Student student4 = new Student(4, "Pieter Jan", "pieterjan", "geheim", false, "v1d");
+        Student student1 = new Student(1, "Thijmen Perdon", "thijmon", "geheim", true, "v1c");
+        Student student2 = new Student(2, "Niels Perdon", "nielson", "geheim", true, "v1c");
+        Student student3 = new Student(3, "Pieter Pan", "pieterpan", "geheim", true, "v1d");
+        Student student4 = new Student(4, "Pieter Jan", "pieterjan", "geheim", true, "v1d");
         studenten.add(student1);
         studenten.add(student2);
         studenten.add(student3);

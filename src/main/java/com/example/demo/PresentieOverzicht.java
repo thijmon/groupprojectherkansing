@@ -47,20 +47,20 @@ public class PresentieOverzicht {
         if (lessenbox.getSelectionModel().getSelectedItem().equals("intro")){
             for(Student s : l1.getStudenten()){
                 if (s.getCheck().isSelected()){
-                    s.setAanwezig(true);
+                    s.setAanwezig(false);
                     studententable.refresh();
                 } else {
-                    s.setAanwezig(false);
+                    s.setAanwezig(true);
                     studententable.refresh();
                 }
             }
         } else {
             for (Student s : l2.getStudenten()) {
                 if (s.getCheck().isSelected()) {
-                    s.setAanwezig(true);
+                    s.setAanwezig(false);
                     studententable.refresh();
                 } else {
-                    s.setAanwezig(false);
+                    s.setAanwezig(true);
                     studententable.refresh();
                 }
             }
